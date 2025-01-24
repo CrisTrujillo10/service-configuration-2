@@ -7,3 +7,5 @@ jpa:
     ddl-auto: none
     show-sql: false
 
+app:
+  testProp: "Propiedad de prueba ACTUALIZADA en PROD"
