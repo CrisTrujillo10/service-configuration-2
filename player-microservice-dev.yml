@@ -2,18 +2,11 @@ spring:
   application:
     name: player-microservice
 
-  jpa:
+jpa:
     hibernate:
-      ddl-auto: update
-    database-platform: org.hibernate.dialect.MySQLDialect
+    ddl-auto: update
     show-sql: true
 
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/playerdb_dev
-    username: root
-    password:
-
-server:
-  port: 0
+app:
+  testProp: "Propiedad de prueba ACTUALIZADA en DEV"
 
